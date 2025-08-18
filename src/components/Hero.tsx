@@ -22,14 +22,14 @@ export const Hero = () => {
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <div className="animate-fade-in-up">
           <h1 className="text-6xl md:text-8xl font-chinese font-light mb-6 text-foreground tracking-wide">
-            太極書法
+            禪筆
           </h1>
           <p className="text-2xl md:text-3xl font-serif italic mb-4 text-muted-foreground">
-            Taichi Calligraphy Arts
+            Zenstrok
           </p>
           <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 leading-relaxed text-foreground/80">
             Where ancient wisdom meets artistic expression. Experience the flowing beauty of 
-            traditional Chinese calligraphy infused with the graceful movements of Taichi.
+            traditional Chinese calligraphy through mindful strokes and zen meditation.
           </p>
           
           {/* Video Section */}
@@ -43,11 +43,11 @@ export const Hero = () => {
               >
                 <source src="/path-to-your-video.mp4" type="video/mp4" />
                 <p className="text-muted-foreground text-center py-4">
-                  Your browser does not support the video tag. Please upload a video file to showcase your Taichi calligraphy art.
+                  Your browser does not support the video tag. Please upload a video file to showcase your zen calligraphy art.
                 </p>
               </video>
               <p className="text-sm text-muted-foreground text-center mt-3 font-serif italic">
-                Watch the graceful art of Taichi calligraphy in motion
+                Watch the graceful art of zen calligraphy in motion
               </p>
             </div>
           </div>

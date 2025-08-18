@@ -4,10 +4,10 @@ export const Footer = () => {
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div className="text-center md:text-left">
-            <h3 className="text-2xl font-chinese font-light mb-4">太極書法</h3>
+            <h3 className="text-2xl font-chinese font-light mb-4">禪筆</h3>
             <p className="text-primary-foreground/80 leading-relaxed">
               Preserving and sharing the ancient art of Chinese calligraphy 
-              through the mindful practice of Taichi.
+              through the mindful practice of zen meditation.
             </p>
           </div>
           
@@ -39,7 +39,7 @@ export const Footer = () => {
         
         <div className="text-center text-primary-foreground/60">
           <p className="font-serif">
-            © 2024 Taichi Calligraphy Arts. All rights reserved.
+            © 2024 Zenstrok. All rights reserved.
           </p>
           <p className="mt-2 text-sm">
             Crafted with reverence for traditional Chinese arts

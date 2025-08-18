@@ -36,7 +36,7 @@ export const Gallery = () => {
             Gallery of Works
           </p>
           <p className="text-lg max-w-2xl mx-auto text-foreground/80">
-            Each piece reflects the meditative flow of Taichi movements, 
+            Each piece reflects the meditative flow of zen practice, 
             captured in the timeless art of Chinese calligraphy.
           </p>
         </div>

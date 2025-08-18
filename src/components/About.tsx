@@ -20,9 +20,9 @@ export const About = () => {
                 The Philosophy
               </h3>
               <p className="text-foreground/80 leading-relaxed mb-6">
-                Taichi calligraphy merges the meditative movements of Taichi with the 
-                ancient art of Chinese brush writing. Each stroke flows like water, 
-                each character breathes with the rhythm of qi.
+                Zenstrok merges meditative zen practice with the ancient art of Chinese brush writing. 
+                Each stroke flows like water, each character breathes with mindful presence and 
+                spiritual energy.
               </p>
               <p className="text-foreground/80 leading-relaxed">
                 This unique approach transforms traditional calligraphy into a moving 
@@ -38,7 +38,7 @@ export const About = () => {
               </h3>
               <p className="text-foreground/80 leading-relaxed mb-6">
                 Before each piece, the artist enters a state of centered calm through 
-                Taichi forms. This preparation infuses the calligraphy with the essence 
+                zen meditation. This preparation infuses the calligraphy with the essence 
                 of balanced energy and mindful presence.
               </p>
               <p className="text-foreground/80 leading-relaxed">

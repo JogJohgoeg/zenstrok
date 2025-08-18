@@ -14,7 +14,7 @@ export const Contact = () => {
             Contact & Inquiries
           </p>
           <p className="text-lg text-foreground/80 max-w-2xl mx-auto">
-            Interested in commissioning a piece or learning more about Taichi calligraphy? 
+            Interested in commissioning a piece or learning more about zen calligraphy? 
             We would be honored to share this ancient art with you.
           </p>
         </div>
@@ -39,7 +39,7 @@ export const Contact = () => {
               
               <div className="space-y-2">
                 <Label htmlFor="message" className="text-foreground">Message</Label>
-                <Textarea id="message" placeholder="Tell us about your interest in Taichi calligraphy..." className="min-h-32 border-border/50 focus:border-accent resize-none" />
+                <Textarea id="message" placeholder="Tell us about your interest in zen calligraphy..." className="min-h-32 border-border/50 focus:border-accent resize-none" />
               </div>
               
               <Button className="w-full shadow-ink hover:shadow-paper transition-all duration-300">
@@ -90,7 +90,7 @@ export const Contact = () => {
                   <Label htmlFor="review-text" className="text-foreground">Your Review</Label>
                   <Textarea 
                     id="review-text" 
-                    placeholder="Share your experience with Taichi calligraphy..." 
+                    placeholder="Share your experience with zen calligraphy..." 
                     className="min-h-24 border-border/50 focus:border-accent resize-none" 
                   />
                 </div>
@@ -108,7 +108,7 @@ export const Contact = () => {
                 <div className="space-y-4">
                   <div className="border-l-4 border-accent pl-4 animate-brushstroke">
                     <p className="text-foreground/90 italic mb-2">
-                      "The harmony between Taichi movements and calligraphy strokes creates pure magic. A truly transformative art form."
+                      "The harmony between zen meditation and calligraphy strokes creates pure magic. A truly transformative art form."
                     </p>
                     <p className="text-sm text-muted-foreground font-medium">
                       — Sarah Chen, Art Collector
