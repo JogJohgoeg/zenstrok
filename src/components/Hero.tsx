@@ -9,7 +9,13 @@ export const Hero = () => {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/60 to-background/80" />
+        <div className="absolute inset-0 bg-gradient-to-br from-background/20 via-transparent to-background/30 opacity-80" style={{
+          background: `
+            radial-gradient(ellipse at top left, hsl(var(--background) / 0.3) 0%, transparent 50%),
+            radial-gradient(ellipse at bottom right, hsl(var(--background) / 0.4) 0%, transparent 60%),
+            linear-gradient(135deg, hsl(var(--background) / 0.1) 0%, hsl(var(--background) / 0.5) 100%)
+          `
+        }} />
       </div>
       
       {/* Content */}
