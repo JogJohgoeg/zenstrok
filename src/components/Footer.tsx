@@ -1,8 +1,6 @@
 import { Separator } from "@/components/ui/separator";
-
 export const Footer = () => {
-  return (
-    <footer className="bg-primary text-primary-foreground py-12 px-6">
+  return <footer className="bg-primary text-primary-foreground py-12 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div className="text-center md:text-left">
@@ -31,8 +29,8 @@ export const Footer = () => {
           <div className="text-center md:text-right">
             <h4 className="font-serif font-semibold mb-4">Connect</h4>
             <div className="space-y-2">
-              <p className="text-primary-foreground/80">studio@taichicalligraphy.art</p>
-              <p className="text-primary-foreground/80">+1 (555) 123-4567</p>
+              <p className="text-primary-foreground/80">zhuoning293@gmail.com</p>
+              
             </div>
           </div>
         </div>
@@ -48,6 +46,5 @@ export const Footer = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
