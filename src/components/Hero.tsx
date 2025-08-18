@@ -21,16 +21,73 @@ export const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <div className="animate-fade-in-up">
-          <h1 className="text-6xl md:text-8xl font-chinese font-light mb-6 text-foreground tracking-wide">
-            禪筆
-          </h1>
-          <p className="text-2xl md:text-3xl font-serif italic mb-4 text-muted-foreground">
-            Zenstrok
-          </p>
-          <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 leading-relaxed text-foreground/80">
-            Where ancient wisdom meets artistic expression. Experience the flowing beauty of 
-            traditional Chinese calligraphy through mindful strokes and zen meditation.
-          </p>
+          {/* Zen Circle and Artistic Elements */}
+          <div className="mb-8 flex flex-col items-center space-y-6">
+            {/* Main Zen Circle */}
+            <div className="relative w-48 h-48 md:w-64 md:h-64">
+              <svg 
+                viewBox="0 0 200 200" 
+                className="w-full h-full animate-brushstroke"
+                style={{ filter: 'drop-shadow(0 0 20px hsl(var(--primary) / 0.3))' }}
+              >
+                <circle
+                  cx="100"
+                  cy="100"
+                  r="85"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="6"
+                  strokeLinecap="round"
+                  className="text-foreground opacity-90"
+                  style={{
+                    strokeDasharray: '500 50',
+                    strokeDashoffset: '20',
+                    filter: 'url(#roughPaper)'
+                  }}
+                />
+                <defs>
+                  <filter id="roughPaper">
+                    <feTurbulence baseFrequency="0.04" numOctaves="3" result="noise"/>
+                    <feDisplacementMap in="SourceGraphic" in2="noise" scale="2"/>
+                  </filter>
+                </defs>
+              </svg>
+              
+              {/* Flowing Strokes */}
+              <div className="absolute inset-0 animate-ink-flow">
+                <svg viewBox="0 0 200 200" className="w-full h-full">
+                  <path
+                    d="M50 150 Q100 50 150 150"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="3"
+                    strokeLinecap="round"
+                    className="text-accent opacity-70"
+                    style={{ strokeDasharray: '3 6' }}
+                  />
+                  <path
+                    d="M70 60 Q130 120 170 80"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    className="text-muted-foreground opacity-50"
+                    style={{ strokeDasharray: '2 8' }}
+                  />
+                </svg>
+              </div>
+            </div>
+            
+            {/* Minimal Text */}
+            <div className="space-y-3">
+              <p className="text-sm md:text-base font-serif text-muted-foreground tracking-[0.3em] uppercase">
+                Zen • Calligraphy • Flow
+              </p>
+              <p className="text-lg md:text-xl max-w-xl mx-auto leading-relaxed text-foreground/70 font-light">
+                Where mindful brushstrokes meet ancient wisdom
+              </p>
+            </div>
+          </div>
           
           {/* Video Section */}
           <div className="mb-8 animate-fade-in-up">
