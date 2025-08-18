@@ -89,7 +89,7 @@ export const Hero = () => {
             </div>
           </div>
           
-          {/* Video Section */}
+          {/* Video Section - Chinese Character Writing Tutorial */}
           <div className="mb-8 animate-fade-in-up">
             <div className="max-w-2xl mx-auto bg-card/80 backdrop-blur-sm rounded-lg p-6 shadow-paper border border-border/50">
               <video 
@@ -98,13 +98,13 @@ export const Hero = () => {
                 poster={heroImage}
                 preload="metadata"
               >
-                <source src="/path-to-your-video.mp4" type="video/mp4" />
+                <source src="/chinese-character-tutorial.mp4" type="video/mp4" />
                 <p className="text-muted-foreground text-center py-4">
-                  Your browser does not support the video tag. Please upload a video file to showcase your zen calligraphy art.
+                  Upload a video demonstrating how to write Chinese characters with proper brush technique and stroke order.
                 </p>
               </video>
               <p className="text-sm text-muted-foreground text-center mt-3 font-serif italic">
-                Watch the graceful art of zen calligraphy in motion
+                Learn the art of Chinese character writing - stroke by stroke
               </p>
             </div>
           </div>
